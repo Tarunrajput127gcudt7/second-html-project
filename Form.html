@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+      fieldset{
+        width: 400px;
+      }
+    </style>
+</head>
+<body><center>
+  <form action="#">
+    <fieldset>
+      <legend>Registration form</legend>
+    Name: <input type="fname" name="fname"><br><br>
+    Email: <input type="email" name="email"><br><br>
+    Password: <input type="password" name="password" minlength="2" maxlength="10"><br><br>
+    Company: <input type="company" name="company"><br><br>
+    Address:<textarea rows="" cols=""></textarea><br><br>
+
+    Gender:
+           <input type="radio" value="m"  name="gender">male
+           <input type="radio" value="f" name="gender">female
+           <input type="radio" value="o" name="gender">other
+        <br><br>
+
+    Hobbies: <input type="checkbox">cirket<br>
+             <input type="checkbox">Gaming
+             <input type="checkbox">runing<br>
+             <input type="checkbox">reading
+             <input type="checkbox">movies<br>
+             <input type="checkbox">rafting<br><br>
+
+             <label for="useryop">Mention Your details</label><br>
+             <select name="Food itam" id="user">
+              <option value="">Select food itam</option>
+              <optgroup label="Vag itam">
+              <option value="Rajma Chawal">Rajma Chawal</option>
+              <option value="Chole Chawal">Chole Chawal</option>
+              <option value="Aloo Paneer">Aloo Paneer</option>
+              <option value="Aloo paratha">Aloo paratha</option>
+             <br>
+              <optgroup label="Non Vag">
+               <option value="Checken chorma">Checken chorma</option>
+               <option value="Cheken kabab"> Cheken kabab</option>
+               <option value="Checken malai kabab"> Checken malai kabab</option>
+               <option value="Checken afgani"> Checken afgani</option>
+              </optgroup>
+             </select>
+
+                <br><br>
+             <input type="submit" value="Login">
+             <input type="reset" value="Cancel"><br><br>
+             
+    </fieldset>
+  </form>
+</center>
+</body>
+</html>
